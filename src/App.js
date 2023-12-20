@@ -1,17 +1,30 @@
 import './App.css';
-import Card from './components/Card';
-import Products from './components/Products';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import UsersList from './pages/gallery/UsersList';
+import Home from './pages/home/HomePage';
+import NavBar from './pages/navbar';
+import Buttons from './pages/btns/Buttons';
+import CardPage from './pages/gallery/CardPage';
+import Users from './components/Users';
 
 
 function App() {
   return (
     <>
-      <div className='flex inline-flex'>
-        <Card title="Кнопка" description="Текст" price="цена"></Card>
-        <Card title="креветки" description="Мы вкусные креветки" price="100"></Card>
-        <Card title="пицца" description="Дорогая пицца" price="1000"></Card>
-      </div>
-      <Products/>
+
+      <BrowserRouter>
+      <NavBar/>
+          <Routes>
+          <Route path='/13' element={<Buttons/>}/>
+
+          <Route path='/' element={<Home/>}/>
+
+            <Route path='/users' element={<UsersList/>}/>
+            <Route path='/users/:userID' element={<CardPage/>}/>
+
+          </Routes>
+      </BrowserRouter>
+
 
     </>
   );
