@@ -6,6 +6,7 @@ import NavBar from './pages/navbar';
 import Buttons from './pages/btns/Buttons';
 import CardPage from './pages/gallery/CardPage';
 import Users from './components/Users';
+import Form from './pages/form/Form';
 
 
 function App() {
@@ -16,7 +17,7 @@ function App() {
       <NavBar/>
           <Routes>
           <Route path='/13' element={<Buttons/>}/>
-
+          <Route path='/form' element={<Form/>}/>
           <Route path='/' element={<Home/>}/>
 
             <Route path='/users' element={<UsersList/>}/>
