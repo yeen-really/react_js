@@ -9,7 +9,7 @@ function NavBar() {
         className="px-5 xl:px-24 lg:px-16 md:px-14 sm:px-10 z-50 mx-auto text-black"
       >
         <div className="flex space-x-5 py-3">
-        <Link to="/13" className="font-bold hover:text-lime py-2">
+          <Link to="/13" className="font-bold hover:text-lime py-2">
             Задание 13
           </Link>
           <Link to="/" className="font-bold hover:text-lime py-2">
@@ -18,6 +18,9 @@ function NavBar() {
 
           <Link to="/users" className="font-bold hover:text-lime py-2">
             Галерея
+          </Link>
+          <Link to="/form" className="font-bold hover:text-lime py-2">
+            Форма
           </Link>
         </div>
       </header>
