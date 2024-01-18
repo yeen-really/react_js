@@ -1,0 +1,1 @@
+export const getUsers = (store) => store.users.list
