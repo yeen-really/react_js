@@ -1,0 +1,15 @@
+{
+  "name": "node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "init:dist": "node ./src/createDistDir.js",
+    "writeport": "node ./src/writePort.js",
+    "readport": "node ./src/readPort.js"
+
+  },
+  "author": "",
+  "license": "ISC",
+  "type": "module"
+}
