@@ -1,0 +1,12 @@
+{
+  "name": "filesinfo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./fs/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "type": "module"
+}
