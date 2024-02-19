@@ -135,3 +135,4 @@ test('Проверка блокировки и разблокировки кно
 
 	expect(elements.submitButton).not.toHaveAttribute('disabled');
 });
+/
