@@ -1,0 +1,22 @@
+.disabled {
+    border: 2px solid rgb(144, 144, 144);
+    opacity: 0.5;
+    background-color: rgb(183, 183, 183);
+}
+
+.checked {
+    border: 2px solid rgb(0, 255, 51);
+}
+
+.error {
+    border: 2px solid rgb(255, 0, 0);
+
+
+}
+
+.input-style {
+    border-radius: 5px;
+    padding: 5px;
+    margin-left: 5px;
+    color: rgb(0, 0, 0);
+}
